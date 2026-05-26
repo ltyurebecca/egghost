@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&family=Noto+Sans+TC:wght@300;400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans TC", sans-serif;
+  --font-serif: "Noto Serif TC", serif;
+  
+  --color-brand-bg: #FDFBF8; /* 米白色 */
+  --color-brand-milk-tea: #E6D2C0; /* 奶茶色 */
+  --color-brand-wood: #8B7355; /* 木質棕色 */
+  --color-brand-coffee: #4A3728; /* 深咖啡色 */
+  --color-brand-accent: #E89B50; /* 暖橘色 */
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-coffee font-sans;
+  }
+}
+
