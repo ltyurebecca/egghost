@@ -11,7 +11,7 @@ const menuCategories = [
 
 const menuItems = {
   '飲品': [
-    { name: '美式', price: '$120', desc: '經典濃郁美式咖啡。', image: '/src/assets/images/americano_1779176175396.png' },
+    { name: '美式', price: '$120', desc: '經典濃郁美式咖啡。', img src="assets/images/americano_1779176175396.png"},
     { name: '拿鐵', price: '$150', desc: '香醇順口，奶香濃郁。', image: '/src/assets/images/latte_1779176192995.png' },
     { name: '西西里檸檬碎碎冰咖', price: '$160', desc: '新鮮檸檬與迷人咖啡，酸甜清爽。', image: '/src/assets/images/sicilian_lemon_iced_coffee_1779176214387.png' },
     { name: '疍宅鮮奶茶', price: '$140', desc: '嚴選茶葉與鮮乳的完美比例。', image: '/src/assets/images/dan_zhai_fresh_milk_tea_1779176231567.png' },
